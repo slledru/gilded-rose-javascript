@@ -19,6 +19,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', 4, 6));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 14, 21));
+    expected.push(new Item('Conjured Mana Cake', 2, 4));
   });
   it("After Day 2", function() {
     expected.push(new Item('+5 Dexterity Vest', 8, 18));
@@ -26,6 +27,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', 3, 5));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 13, 22));
+    expected.push(new Item('Conjured Mana Cake', 1, 2));
   });
   it("After Day 3", function() {
     expected.push(new Item('+5 Dexterity Vest', 7, 17));
@@ -33,6 +35,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', 2, 4));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 12, 23));
+    expected.push(new Item('Conjured Mana Cake', 0, 0));
   });
   it("After Day 4", function() {
     expected.push(new Item('+5 Dexterity Vest', 6, 16));
@@ -40,6 +43,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', 1, 3));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 11, 24));
+    expected.push(new Item('Conjured Mana Cake', -1, 0));
   });
   it("After Day 5", function() {
     expected.push(new Item('+5 Dexterity Vest', 5, 15));
@@ -47,6 +51,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', 0, 2));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 10, 25));
+    expected.push(new Item('Conjured Mana Cake', -2, 0));
   });
   it("After Day 6", function() {
     expected.push(new Item('+5 Dexterity Vest', 4, 14));
@@ -54,6 +59,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -1, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 9, 27));
+    expected.push(new Item('Conjured Mana Cake', -3, 0));
   });
   it("After Day 7", function() {
     expected.push(new Item('+5 Dexterity Vest', 3, 13));
@@ -61,6 +67,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -2, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 8, 29));
+    expected.push(new Item('Conjured Mana Cake', -4, 0));
   });
   it("After Day 8", function() {
     expected.push(new Item('+5 Dexterity Vest', 2, 12));
@@ -68,6 +75,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -3, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 7, 31));
+    expected.push(new Item('Conjured Mana Cake', -5, 0));
   });
   it("After Day 9", function() {
     expected.push(new Item('+5 Dexterity Vest', 1, 11));
@@ -75,6 +83,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -4, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 6, 33));
+    expected.push(new Item('Conjured Mana Cake', -6, 0));
   });
   it("After Day 10", function() {
     expected.push(new Item('+5 Dexterity Vest', 0, 10));
@@ -82,6 +91,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -5, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 5, 35));
+    expected.push(new Item('Conjured Mana Cake', -7, 0));
   });
   it("After Day 11", function() {
     expected.push(new Item('+5 Dexterity Vest', -1, 8));
@@ -89,6 +99,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -6, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 4, 38));
+    expected.push(new Item('Conjured Mana Cake', -8, 0));
   });
   it("After Day 12", function() {
     expected.push(new Item('+5 Dexterity Vest', -2, 6));
@@ -96,6 +107,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -7, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 3, 41));
+    expected.push(new Item('Conjured Mana Cake', -9, 0));
   });
   it("After Day 13", function() {
     expected.push(new Item('+5 Dexterity Vest', -3, 4));
@@ -103,6 +115,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -8, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 2, 44));
+    expected.push(new Item('Conjured Mana Cake', -10, 0));
   });
   it("After Day 14", function() {
     expected.push(new Item('+5 Dexterity Vest', -4, 2));
@@ -110,6 +123,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -9, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 1, 47));
+    expected.push(new Item('Conjured Mana Cake', -11, 0));
   });
   it("After Day 15", function() {
     expected.push(new Item('+5 Dexterity Vest', -5, 0));
@@ -117,6 +131,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -10, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', 0, 50));
+    expected.push(new Item('Conjured Mana Cake', -12, 0));
   });
   it("After Day 16", function() {
     expected.push(new Item('+5 Dexterity Vest', -6, 0));
@@ -124,6 +139,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -11, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', -1, 0));
+    expected.push(new Item('Conjured Mana Cake', -13, 0));
   });
   it("After Day 40", function() {
     for (let i = 17; i <= 40; i++) {
@@ -134,6 +150,7 @@ describe("Gilded Rose", function() {
     expected.push(new Item('Elixir of the Mongoose', -36, 0));
     expected.push(new Item('Sulfuras, Hand of Ragnaros', 0, 80));
     expected.push(new Item('Backstage passes to a TAFKAL80ETC concert', -26, 0));
+    expected.push(new Item('Conjured Mana Cake', -38, 0));
   });
 
 });

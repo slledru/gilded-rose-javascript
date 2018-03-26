@@ -36,6 +36,9 @@ function update_quality() {
             items[i].quality += 1
           }
           break
+        case 'Conjured Mana Cake':
+          items[i].quality -= 2
+          break
         default:
           if (items[i].sell_in < 0) {
             items[i].quality -= 2
